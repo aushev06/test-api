@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "psr/log": "^1.1"
+    },
+    "name": "test/api",
+    "description": "Test Api"
+}
